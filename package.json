@@ -1,0 +1,25 @@
+{
+  "name": "volcanoes-worldwide",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "release:zip": "bash scripts/package-release.sh"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@visquill/visquill-gdk": "^1.0.1",
+    "maplibre-gl": "^6.9.1"
+  }
+}
